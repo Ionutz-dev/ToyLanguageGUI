@@ -1,0 +1,37 @@
+---- Program States ----
+
+Id 1 SymTable {
+}
+
+Exec stack:
+(int x;(x = 20;(int y;(if(x GREATER 10){
+y = 1}
+else{
+y = 0
+};print(y)))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+}
+
+Exec stack:
+(x = 20;(int y;(if(x GREATER 10){
+y = 1}
+else{
+y = 0
+};print(y))))
+int x
+
+Heap {
+}
+
+Output List: [ ]
+
+

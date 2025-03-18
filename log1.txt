@@ -1,0 +1,1511 @@
+---- Program States ----
+
+Id 1 SymTable {
+}
+
+Exec stack:
+(string varf;(varf = test.in;(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf)))))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+}
+
+Exec stack:
+(varf = test.in;(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))))))
+string varf
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+}
+
+Exec stack:
+(varf = test.in;(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))))))
+string varf
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> 
+}
+
+Exec stack:
+(varf = test.in;(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> 
+}
+
+Exec stack:
+(varf = test.in;(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> 
+}
+
+Exec stack:
+(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf)))))))
+varf = test.in
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> 
+}
+
+Exec stack:
+(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf)))))))
+varf = test.in
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+}
+
+Exec stack:
+(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf)))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+}
+
+Exec stack:
+(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf)))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+}
+
+Exec stack:
+(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))))
+openRFile(varf)
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+}
+
+Exec stack:
+(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))))
+openRFile(varf)
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+}
+
+Exec stack:
+(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+}
+
+Exec stack:
+(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+}
+
+Exec stack:
+(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf)))))
+int varc
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+}
+
+Exec stack:
+(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf)))))
+int varc
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 0
+}
+
+Exec stack:
+(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf)))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+}
+
+Exec stack:
+(string varf;(varf = test.in;(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf)))))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+}
+
+Exec stack:
+(varf = test.in;(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))))))
+string varf
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+}
+
+Exec stack:
+(varf = test.in;(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))))))
+string varf
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> 
+}
+
+Exec stack:
+(varf = test.in;(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> 
+}
+
+Exec stack:
+(varf = test.in;(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> 
+}
+
+Exec stack:
+(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf)))))))
+varf = test.in
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> 
+}
+
+Exec stack:
+(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf)))))))
+varf = test.in
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+}
+
+Exec stack:
+(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf)))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+}
+
+Exec stack:
+(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf)))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+}
+
+Exec stack:
+(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))))
+openRFile(varf)
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+}
+
+Exec stack:
+(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))))
+openRFile(varf)
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+}
+
+Exec stack:
+(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+}
+
+Exec stack:
+(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+}
+
+Exec stack:
+(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf)))))
+int varc
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+}
+
+Exec stack:
+(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf)))))
+int varc
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 0
+}
+
+Exec stack:
+(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf)))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 0
+}
+
+Exec stack:
+(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf)))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 0
+}
+
+Exec stack:
+(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))
+readFile(varf, varc)
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 0
+}
+
+Exec stack:
+(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))
+readFile(varf, varc)
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 0
+}
+
+Exec stack:
+(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 0
+}
+
+Exec stack:
+(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 0
+}
+
+Exec stack:
+(readFile(test.in, varc);(print(varc);closeRFile(varf)))
+print(varc)
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 0
+}
+
+Exec stack:
+(readFile(test.in, varc);(print(varc);closeRFile(varf)))
+print(varc)
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 0
+}
+
+Exec stack:
+(readFile(test.in, varc);(print(varc);closeRFile(varf)))
+
+Heap {
+}
+
+Output List: [ 0 ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 0
+}
+
+Exec stack:
+(readFile(test.in, varc);(print(varc);closeRFile(varf)))
+
+Heap {
+}
+
+Output List: [ 0 ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 0
+}
+
+Exec stack:
+(print(varc);closeRFile(varf))
+readFile(test.in, varc)
+
+Heap {
+}
+
+Output List: [ 0 ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 0
+}
+
+Exec stack:
+(print(varc);closeRFile(varf))
+readFile(test.in, varc)
+
+Heap {
+}
+
+Output List: [ 0 ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 0
+}
+
+Exec stack:
+(print(varc);closeRFile(varf))
+
+Heap {
+}
+
+Output List: [ 0 ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 0
+}
+
+Exec stack:
+(print(varc);closeRFile(varf))
+
+Heap {
+}
+
+Output List: [ 0 ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 0
+}
+
+Exec stack:
+closeRFile(varf)
+print(varc)
+
+Heap {
+}
+
+Output List: [ 0 ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 0
+}
+
+Exec stack:
+closeRFile(varf)
+print(varc)
+
+Heap {
+}
+
+Output List: [ 0 ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 0
+}
+
+Exec stack:
+closeRFile(varf)
+
+Heap {
+}
+
+Output List: [ 0 0 ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 0
+}
+
+Exec stack:
+closeRFile(varf)
+
+Heap {
+}
+
+Output List: [ 0 0 ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 0
+}
+
+Exec stack:
+
+Heap {
+}
+
+Output List: [ 0 0 ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+}
+
+Exec stack:
+(string varf;(varf = test.in;(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf)))))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+}
+
+Exec stack:
+(varf = test.in;(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))))))
+string varf
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+}
+
+Exec stack:
+(varf = test.in;(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))))))
+string varf
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> 
+}
+
+Exec stack:
+(varf = test.in;(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> 
+}
+
+Exec stack:
+(varf = test.in;(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> 
+}
+
+Exec stack:
+(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf)))))))
+varf = test.in
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> 
+}
+
+Exec stack:
+(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf)))))))
+varf = test.in
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+}
+
+Exec stack:
+(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf)))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+}
+
+Exec stack:
+(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf)))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+}
+
+Exec stack:
+(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))))
+openRFile(varf)
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+}
+
+Exec stack:
+(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))))
+openRFile(varf)
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+}
+
+Exec stack:
+(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+}
+
+Exec stack:
+(string varf;(varf = test.in;(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf)))))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+}
+
+Exec stack:
+(varf = test.in;(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))))))
+string varf
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+}
+
+Exec stack:
+(varf = test.in;(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))))))
+string varf
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> 
+}
+
+Exec stack:
+(varf = test.in;(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> 
+}
+
+Exec stack:
+(varf = test.in;(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> 
+}
+
+Exec stack:
+(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf)))))))
+varf = test.in
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> 
+}
+
+Exec stack:
+(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf)))))))
+varf = test.in
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+}
+
+Exec stack:
+(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf)))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+}
+
+Exec stack:
+(openRFile(varf);(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf)))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+}
+
+Exec stack:
+(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))))
+openRFile(varf)
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+}
+
+Exec stack:
+(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))))
+openRFile(varf)
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+}
+
+Exec stack:
+(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+}
+
+Exec stack:
+(int varc;(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+}
+
+Exec stack:
+(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf)))))
+int varc
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+}
+
+Exec stack:
+(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf)))))
+int varc
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 0
+}
+
+Exec stack:
+(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf)))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 0
+}
+
+Exec stack:
+(readFile(varf, varc);(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf)))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 0
+}
+
+Exec stack:
+(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))
+readFile(varf, varc)
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 0
+}
+
+Exec stack:
+(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))
+readFile(varf, varc)
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 15
+}
+
+Exec stack:
+(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 15
+}
+
+Exec stack:
+(print(varc);(readFile(test.in, varc);(print(varc);closeRFile(varf))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 15
+}
+
+Exec stack:
+(readFile(test.in, varc);(print(varc);closeRFile(varf)))
+print(varc)
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 15
+}
+
+Exec stack:
+(readFile(test.in, varc);(print(varc);closeRFile(varf)))
+print(varc)
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 15
+}
+
+Exec stack:
+(readFile(test.in, varc);(print(varc);closeRFile(varf)))
+
+Heap {
+}
+
+Output List: [ 15 ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 15
+}
+
+Exec stack:
+(readFile(test.in, varc);(print(varc);closeRFile(varf)))
+
+Heap {
+}
+
+Output List: [ 15 ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 15
+}
+
+Exec stack:
+(print(varc);closeRFile(varf))
+readFile(test.in, varc)
+
+Heap {
+}
+
+Output List: [ 15 ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 15
+}
+
+Exec stack:
+(print(varc);closeRFile(varf))
+readFile(test.in, varc)
+
+Heap {
+}
+
+Output List: [ 15 ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 15
+}
+
+Exec stack:
+(print(varc);closeRFile(varf))
+
+Heap {
+}
+
+Output List: [ 15 ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 15
+}
+
+Exec stack:
+(print(varc);closeRFile(varf))
+
+Heap {
+}
+
+Output List: [ 15 ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 15
+}
+
+Exec stack:
+closeRFile(varf)
+print(varc)
+
+Heap {
+}
+
+Output List: [ 15 ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 15
+}
+
+Exec stack:
+closeRFile(varf)
+print(varc)
+
+Heap {
+}
+
+Output List: [ 15 ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 15
+}
+
+Exec stack:
+closeRFile(varf)
+
+Heap {
+}
+
+Output List: [ 15 15 ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 15
+}
+
+Exec stack:
+closeRFile(varf)
+
+Heap {
+}
+
+Output List: [ 15 15 ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+varf -> test.in
+varc -> 15
+}
+
+Exec stack:
+
+Heap {
+}
+
+Output List: [ 15 15 ]
+
+

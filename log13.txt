@@ -1,0 +1,1521 @@
+---- Program States ----
+
+Id 1 SymTable {
+}
+
+Exec stack:
+(ref(int) v1;(ref(int) v2;(ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newBarrier(cnt, rH(v2));(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3)))))))))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+}
+
+Exec stack:
+(ref(int) v2;(ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newBarrier(cnt, rH(v2));(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3))))))))))))
+ref(int) v1
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+}
+
+Exec stack:
+(ref(int) v2;(ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newBarrier(cnt, rH(v2));(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3))))))))))))
+ref(int) v1
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v1 -> (0, int)
+}
+
+Exec stack:
+(ref(int) v2;(ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newBarrier(cnt, rH(v2));(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3))))))))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v1 -> (0, int)
+}
+
+Exec stack:
+(ref(int) v2;(ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newBarrier(cnt, rH(v2));(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3))))))))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v1 -> (0, int)
+}
+
+Exec stack:
+(ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newBarrier(cnt, rH(v2));(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3)))))))))))
+ref(int) v2
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v1 -> (0, int)
+}
+
+Exec stack:
+(ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newBarrier(cnt, rH(v2));(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3)))))))))))
+ref(int) v2
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v1 -> (0, int)
+v2 -> (0, int)
+}
+
+Exec stack:
+(ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newBarrier(cnt, rH(v2));(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3)))))))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v1 -> (0, int)
+v2 -> (0, int)
+}
+
+Exec stack:
+(ref(int) v3;(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newBarrier(cnt, rH(v2));(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3)))))))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v1 -> (0, int)
+v2 -> (0, int)
+}
+
+Exec stack:
+(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newBarrier(cnt, rH(v2));(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3))))))))))
+ref(int) v3
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v1 -> (0, int)
+v2 -> (0, int)
+}
+
+Exec stack:
+(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newBarrier(cnt, rH(v2));(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3))))))))))
+ref(int) v3
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v1 -> (0, int)
+v2 -> (0, int)
+v3 -> (0, int)
+}
+
+Exec stack:
+(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newBarrier(cnt, rH(v2));(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3))))))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v1 -> (0, int)
+v2 -> (0, int)
+v3 -> (0, int)
+}
+
+Exec stack:
+(int cnt;(new(v1, 2);(new(v2, 3);(new(v3, 4);(newBarrier(cnt, rH(v2));(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3))))))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v1 -> (0, int)
+v2 -> (0, int)
+v3 -> (0, int)
+}
+
+Exec stack:
+(new(v1, 2);(new(v2, 3);(new(v3, 4);(newBarrier(cnt, rH(v2));(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3)))))))))
+int cnt
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v1 -> (0, int)
+v2 -> (0, int)
+v3 -> (0, int)
+}
+
+Exec stack:
+(new(v1, 2);(new(v2, 3);(new(v3, 4);(newBarrier(cnt, rH(v2));(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3)))))))))
+int cnt
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 0
+v1 -> (0, int)
+v2 -> (0, int)
+v3 -> (0, int)
+}
+
+Exec stack:
+(new(v1, 2);(new(v2, 3);(new(v3, 4);(newBarrier(cnt, rH(v2));(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3)))))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 0
+v1 -> (0, int)
+v2 -> (0, int)
+v3 -> (0, int)
+}
+
+Exec stack:
+(new(v1, 2);(new(v2, 3);(new(v3, 4);(newBarrier(cnt, rH(v2));(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3)))))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 0
+v1 -> (0, int)
+v2 -> (0, int)
+v3 -> (0, int)
+}
+
+Exec stack:
+(new(v2, 3);(new(v3, 4);(newBarrier(cnt, rH(v2));(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3))))))))
+new(v1, 2)
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 0
+v1 -> (0, int)
+v2 -> (0, int)
+v3 -> (0, int)
+}
+
+Exec stack:
+(new(v2, 3);(new(v3, 4);(newBarrier(cnt, rH(v2));(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3))))))))
+new(v1, 2)
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 0
+v1 -> (1, int)
+v2 -> (0, int)
+v3 -> (0, int)
+}
+
+Exec stack:
+(new(v2, 3);(new(v3, 4);(newBarrier(cnt, rH(v2));(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3))))))))
+
+Heap {
+1 -> 2
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 0
+v1 -> (1, int)
+v2 -> (0, int)
+v3 -> (0, int)
+}
+
+Exec stack:
+(new(v2, 3);(new(v3, 4);(newBarrier(cnt, rH(v2));(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3))))))))
+
+Heap {
+1 -> 2
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 0
+v1 -> (1, int)
+v2 -> (0, int)
+v3 -> (0, int)
+}
+
+Exec stack:
+(new(v3, 4);(newBarrier(cnt, rH(v2));(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3)))))))
+new(v2, 3)
+
+Heap {
+1 -> 2
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 0
+v1 -> (1, int)
+v2 -> (0, int)
+v3 -> (0, int)
+}
+
+Exec stack:
+(new(v3, 4);(newBarrier(cnt, rH(v2));(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3)))))))
+new(v2, 3)
+
+Heap {
+1 -> 2
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (0, int)
+}
+
+Exec stack:
+(new(v3, 4);(newBarrier(cnt, rH(v2));(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3)))))))
+
+Heap {
+1 -> 2
+2 -> 3
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (0, int)
+}
+
+Exec stack:
+(new(v3, 4);(newBarrier(cnt, rH(v2));(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3)))))))
+
+Heap {
+1 -> 2
+2 -> 3
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (0, int)
+}
+
+Exec stack:
+(newBarrier(cnt, rH(v2));(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3))))))
+new(v3, 4)
+
+Heap {
+1 -> 2
+2 -> 3
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (0, int)
+}
+
+Exec stack:
+(newBarrier(cnt, rH(v2));(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3))))))
+new(v3, 4)
+
+Heap {
+1 -> 2
+2 -> 3
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(newBarrier(cnt, rH(v2));(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3))))))
+
+Heap {
+1 -> 2
+2 -> 3
+3 -> 4
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(newBarrier(cnt, rH(v2));(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3))))))
+
+Heap {
+1 -> 2
+2 -> 3
+3 -> 4
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3)))))
+newBarrier(cnt, rH(v2))
+
+Heap {
+1 -> 2
+2 -> 3
+3 -> 4
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 0
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3)))))
+newBarrier(cnt, rH(v2))
+
+Heap {
+1 -> 2
+2 -> 3
+3 -> 4
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3)))))
+
+Heap {
+1 -> 2
+2 -> 3
+3 -> 4
+}
+
+Output List: [ ]
+
+BarrierTable {
+1 -> 3=[]
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))));(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3)))))
+
+Heap {
+1 -> 2
+2 -> 3
+3 -> 4
+}
+
+Output List: [ ]
+
+BarrierTable {
+1 -> 3=[]
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3))))
+fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))))
+
+Heap {
+1 -> 2
+2 -> 3
+3 -> 4
+}
+
+Output List: [ ]
+
+BarrierTable {
+1 -> 3=[]
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3))))
+fork((await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))))
+
+Heap {
+1 -> 2
+2 -> 3
+3 -> 4
+}
+
+Output List: [ ]
+
+BarrierTable {
+1 -> 3=[]
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3))))
+
+Heap {
+1 -> 2
+2 -> 3
+3 -> 4
+}
+
+Output List: [ ]
+
+BarrierTable {
+1 -> 3=[]
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))));(await(cnt);print(rH(v3))))
+
+Id 2 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(await(cnt);(wH(v1, rH(v1)MULTIPLY10);print(rH(v1))))
+
+Heap {
+1 -> 2
+2 -> 3
+3 -> 4
+}
+
+Output List: [ ]
+
+BarrierTable {
+1 -> 3=[]
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(await(cnt);print(rH(v3)))
+fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))))
+
+Id 2 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))
+await(cnt)
+
+Heap {
+1 -> 2
+2 -> 3
+3 -> 4
+}
+
+Output List: [ ]
+
+BarrierTable {
+1 -> 3=[]
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(await(cnt);print(rH(v3)))
+fork((await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))))
+
+Id 2 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))
+await(cnt)
+
+Heap {
+1 -> 2
+2 -> 3
+3 -> 4
+}
+
+Output List: [ ]
+
+BarrierTable {
+1 -> 3=[]
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(await(cnt);print(rH(v3)))
+
+Id 2 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))
+await(cnt)
+
+Heap {
+1 -> 2
+2 -> 3
+3 -> 4
+}
+
+Output List: [ ]
+
+BarrierTable {
+1 -> 3=[2]
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(await(cnt);print(rH(v3)))
+
+Id 2 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))
+await(cnt)
+
+Id 3 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(await(cnt);(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2)))))
+
+Heap {
+1 -> 2
+2 -> 3
+3 -> 4
+}
+
+Output List: [ ]
+
+BarrierTable {
+1 -> 3=[2]
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+print(rH(v3))
+await(cnt)
+
+Id 2 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))
+await(cnt)
+
+Id 3 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))
+await(cnt)
+
+Heap {
+1 -> 2
+2 -> 3
+3 -> 4
+}
+
+Output List: [ ]
+
+BarrierTable {
+1 -> 3=[2]
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+print(rH(v3))
+await(cnt)
+
+Id 2 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))
+await(cnt)
+
+Id 3 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))
+await(cnt)
+
+Heap {
+1 -> 2
+2 -> 3
+3 -> 4
+}
+
+Output List: [ ]
+
+BarrierTable {
+1 -> 3=[2]
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+print(rH(v3))
+await(cnt)
+
+Id 2 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))
+
+Id 3 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))
+await(cnt)
+
+Heap {
+1 -> 2
+2 -> 3
+3 -> 4
+}
+
+Output List: [ ]
+
+BarrierTable {
+1 -> 3=[2, 1, 3]
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+print(rH(v3))
+await(cnt)
+
+Id 2 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(wH(v1, rH(v1)MULTIPLY10);print(rH(v1)))
+
+Id 3 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))
+await(cnt)
+
+Heap {
+1 -> 2
+2 -> 3
+3 -> 4
+}
+
+Output List: [ ]
+
+BarrierTable {
+1 -> 3=[2, 1, 3]
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+print(rH(v3))
+
+Id 2 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+print(rH(v1))
+wH(v1, rH(v1)MULTIPLY10)
+
+Id 3 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))
+
+Heap {
+1 -> 2
+2 -> 3
+3 -> 4
+}
+
+Output List: [ ]
+
+BarrierTable {
+1 -> 3=[2, 1, 3]
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+print(rH(v3))
+
+Id 2 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+print(rH(v1))
+wH(v1, rH(v1)MULTIPLY10)
+
+Id 3 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(wH(v2, rH(v2)MULTIPLY10);(wH(v2, rH(v2)MULTIPLY10);print(rH(v2))))
+
+Heap {
+1 -> 2
+2 -> 3
+3 -> 4
+}
+
+Output List: [ ]
+
+BarrierTable {
+1 -> 3=[2, 1, 3]
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+
+Id 2 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+print(rH(v1))
+
+Id 3 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(wH(v2, rH(v2)MULTIPLY10);print(rH(v2)))
+wH(v2, rH(v2)MULTIPLY10)
+
+Heap {
+1 -> 20
+2 -> 3
+3 -> 4
+}
+
+Output List: [ 4 ]
+
+BarrierTable {
+1 -> 3=[2, 1, 3]
+}
+
+
+---- Program States ----
+
+Id 2 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+print(rH(v1))
+
+Id 3 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(wH(v2, rH(v2)MULTIPLY10);print(rH(v2)))
+wH(v2, rH(v2)MULTIPLY10)
+
+Heap {
+1 -> 20
+2 -> 3
+3 -> 4
+}
+
+Output List: [ 4 ]
+
+BarrierTable {
+1 -> 3=[2, 1, 3]
+}
+
+
+---- Program States ----
+
+Id 2 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+
+Id 3 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(wH(v2, rH(v2)MULTIPLY10);print(rH(v2)))
+
+Heap {
+1 -> 20
+2 -> 30
+3 -> 4
+}
+
+Output List: [ 4 20 ]
+
+BarrierTable {
+1 -> 3=[2, 1, 3]
+}
+
+
+---- Program States ----
+
+Id 3 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+(wH(v2, rH(v2)MULTIPLY10);print(rH(v2)))
+
+Heap {
+1 -> 20
+2 -> 30
+3 -> 4
+}
+
+Output List: [ 4 20 ]
+
+BarrierTable {
+1 -> 3=[2, 1, 3]
+}
+
+
+---- Program States ----
+
+Id 3 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+print(rH(v2))
+wH(v2, rH(v2)MULTIPLY10)
+
+Heap {
+1 -> 20
+2 -> 30
+3 -> 4
+}
+
+Output List: [ 4 20 ]
+
+BarrierTable {
+1 -> 3=[2, 1, 3]
+}
+
+
+---- Program States ----
+
+Id 3 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+print(rH(v2))
+wH(v2, rH(v2)MULTIPLY10)
+
+Heap {
+1 -> 20
+2 -> 30
+3 -> 4
+}
+
+Output List: [ 4 20 ]
+
+BarrierTable {
+1 -> 3=[2, 1, 3]
+}
+
+
+---- Program States ----
+
+Id 3 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+print(rH(v2))
+
+Heap {
+1 -> 20
+2 -> 300
+3 -> 4
+}
+
+Output List: [ 4 20 ]
+
+BarrierTable {
+1 -> 3=[2, 1, 3]
+}
+
+
+---- Program States ----
+
+Id 3 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+print(rH(v2))
+
+Heap {
+1 -> 20
+2 -> 300
+3 -> 4
+}
+
+Output List: [ 4 20 ]
+
+BarrierTable {
+1 -> 3=[2, 1, 3]
+}
+
+
+---- Program States ----
+
+Id 3 SymTable {
+cnt -> 1
+v1 -> (1, int)
+v2 -> (2, int)
+v3 -> (3, int)
+}
+
+Exec stack:
+
+Heap {
+1 -> 20
+2 -> 300
+3 -> 4
+}
+
+Output List: [ 4 20 300 ]
+
+BarrierTable {
+1 -> 3=[2, 1, 3]
+}
+
+

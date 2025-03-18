@@ -1,0 +1,285 @@
+---- Program States ----
+
+Id 1 SymTable {
+}
+
+Exec stack:
+(ref(int) v;(new(v, 20);(print(rH(v));(wH(v, 30);print(rH(v)PLUS5)))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+}
+
+Exec stack:
+(new(v, 20);(print(rH(v));(wH(v, 30);print(rH(v)PLUS5))))
+ref(int) v
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+}
+
+Exec stack:
+(new(v, 20);(print(rH(v));(wH(v, 30);print(rH(v)PLUS5))))
+ref(int) v
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v -> (0, int)
+}
+
+Exec stack:
+(new(v, 20);(print(rH(v));(wH(v, 30);print(rH(v)PLUS5))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v -> (0, int)
+}
+
+Exec stack:
+(new(v, 20);(print(rH(v));(wH(v, 30);print(rH(v)PLUS5))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v -> (0, int)
+}
+
+Exec stack:
+(print(rH(v));(wH(v, 30);print(rH(v)PLUS5)))
+new(v, 20)
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v -> (0, int)
+}
+
+Exec stack:
+(print(rH(v));(wH(v, 30);print(rH(v)PLUS5)))
+new(v, 20)
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v -> (1, int)
+}
+
+Exec stack:
+(print(rH(v));(wH(v, 30);print(rH(v)PLUS5)))
+
+Heap {
+1 -> 20
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v -> (1, int)
+}
+
+Exec stack:
+(print(rH(v));(wH(v, 30);print(rH(v)PLUS5)))
+
+Heap {
+1 -> 20
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v -> (1, int)
+}
+
+Exec stack:
+(wH(v, 30);print(rH(v)PLUS5))
+print(rH(v))
+
+Heap {
+1 -> 20
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v -> (1, int)
+}
+
+Exec stack:
+(wH(v, 30);print(rH(v)PLUS5))
+print(rH(v))
+
+Heap {
+1 -> 20
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v -> (1, int)
+}
+
+Exec stack:
+(wH(v, 30);print(rH(v)PLUS5))
+
+Heap {
+1 -> 20
+}
+
+Output List: [ 20 ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v -> (1, int)
+}
+
+Exec stack:
+(wH(v, 30);print(rH(v)PLUS5))
+
+Heap {
+1 -> 20
+}
+
+Output List: [ 20 ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v -> (1, int)
+}
+
+Exec stack:
+print(rH(v)PLUS5)
+wH(v, 30)
+
+Heap {
+1 -> 20
+}
+
+Output List: [ 20 ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v -> (1, int)
+}
+
+Exec stack:
+print(rH(v)PLUS5)
+wH(v, 30)
+
+Heap {
+1 -> 20
+}
+
+Output List: [ 20 ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v -> (1, int)
+}
+
+Exec stack:
+print(rH(v)PLUS5)
+
+Heap {
+1 -> 30
+}
+
+Output List: [ 20 ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v -> (1, int)
+}
+
+Exec stack:
+print(rH(v)PLUS5)
+
+Heap {
+1 -> 30
+}
+
+Output List: [ 20 ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v -> (1, int)
+}
+
+Exec stack:
+
+Heap {
+1 -> 30
+}
+
+Output List: [ 20 35 ]
+
+

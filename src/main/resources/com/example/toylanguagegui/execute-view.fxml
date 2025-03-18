@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="540.0" prefWidth="820.0" spacing="10.0" xmlns="http://javafx.com/javafx/17.0.12"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.toylanguagegui.ExecuteViewController">
+
+    <HBox alignment="CENTER" spacing="10.0">
+        <Label text="Number of Program States:"/>
+        <TextField fx:id="prgStateCount" editable="false" maxWidth="150.0"/>
+    </HBox>
+
+    <GridPane alignment="CENTER" hgap="10" vgap="10">
+        <Label text="Heap Table" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+        <TableView fx:id="heapTable" maxHeight="150.0" maxWidth="252.0" prefHeight="150.0" prefWidth="235.0"
+                   GridPane.columnIndex="0" GridPane.rowIndex="1">
+            <columns>
+                <TableColumn fx:id="heapAddressCol" text="Address"/>
+                <TableColumn fx:id="heapValueCol" text="Value"/>
+            </columns>
+            <columnResizePolicy>
+                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+            </columnResizePolicy>
+        </TableView>
+
+        <Label text="Output" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+        <ListView fx:id="outList" maxHeight="150.0" maxWidth="250.0" prefHeight="150.0" prefWidth="209.0"
+                  GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+
+        <Label text="File Table" GridPane.columnIndex="2" GridPane.rowIndex="0"/>
+        <ListView fx:id="fileTable" maxHeight="150.0" maxWidth="250.0" prefHeight="150.0" prefWidth="205.0"
+                  GridPane.columnIndex="2" GridPane.rowIndex="1"/>
+        <columnConstraints>
+            <ColumnConstraints/>
+            <ColumnConstraints/>
+            <ColumnConstraints/>
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints/>
+            <RowConstraints/>
+        </rowConstraints>
+    </GridPane>
+
+    <HBox alignment="CENTER" spacing="10.0">
+        <VBox alignment="CENTER" spacing="10.0">
+            <Label text="Program State IDs"/>
+            <ListView fx:id="prgStateIdList" maxHeight="150.0" maxWidth="150.0"/>
+        </VBox>
+
+        <VBox alignment="CENTER" spacing="10.0">
+            <Label text="Execution Stack"/>
+            <ListView fx:id="exeStack" maxHeight="150.0" maxWidth="250.0"/>
+        </VBox>
+
+        <VBox alignment="CENTER" spacing="10.0">
+            <Label text="Symbol Table"/>
+            <TableView fx:id="symTable" maxHeight="150.0" maxWidth="250.0">
+                <columns>
+                    <TableColumn fx:id="symVarNameCol" text="Variable Name"/>
+                    <TableColumn fx:id="symValueCol" text="Value"/>
+                </columns>
+                <columnResizePolicy>
+                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+                </columnResizePolicy>
+            </TableView>
+        </VBox>
+    </HBox>
+
+    <Label text="Barrier Table"/>
+    <TableView fx:id="barrierTable" maxHeight="150.0" maxWidth="250.0">
+        <columns>
+            <TableColumn fx:id="barrierIndexCol" text="Index"/>
+            <TableColumn fx:id="barrierValueCol" text="Value"/>
+            <TableColumn fx:id="barrierListCol" text="Thread List"/>
+        </columns>
+        <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+        </columnResizePolicy>
+    </TableView>
+    <Button fx:id="runOneStep" onAction="#onRunOneStep" text="Run One Step"/>
+</VBox>

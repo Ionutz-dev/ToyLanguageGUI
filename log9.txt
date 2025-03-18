@@ -1,0 +1,379 @@
+---- Program States ----
+
+Id 1 SymTable {
+}
+
+Exec stack:
+(ref(int) v;(new(v, 20);(ref(ref(int)) a;(new(a, v);(new(v, 3);new(a, v))))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+}
+
+Exec stack:
+(new(v, 20);(ref(ref(int)) a;(new(a, v);(new(v, 3);new(a, v)))))
+ref(int) v
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+}
+
+Exec stack:
+(new(v, 20);(ref(ref(int)) a;(new(a, v);(new(v, 3);new(a, v)))))
+ref(int) v
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v -> (0, int)
+}
+
+Exec stack:
+(new(v, 20);(ref(ref(int)) a;(new(a, v);(new(v, 3);new(a, v)))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v -> (0, int)
+}
+
+Exec stack:
+(new(v, 20);(ref(ref(int)) a;(new(a, v);(new(v, 3);new(a, v)))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v -> (0, int)
+}
+
+Exec stack:
+(ref(ref(int)) a;(new(a, v);(new(v, 3);new(a, v))))
+new(v, 20)
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v -> (0, int)
+}
+
+Exec stack:
+(ref(ref(int)) a;(new(a, v);(new(v, 3);new(a, v))))
+new(v, 20)
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v -> (1, int)
+}
+
+Exec stack:
+(ref(ref(int)) a;(new(a, v);(new(v, 3);new(a, v))))
+
+Heap {
+1 -> 20
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v -> (1, int)
+}
+
+Exec stack:
+(ref(ref(int)) a;(new(a, v);(new(v, 3);new(a, v))))
+
+Heap {
+1 -> 20
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v -> (1, int)
+}
+
+Exec stack:
+(new(a, v);(new(v, 3);new(a, v)))
+ref(ref(int)) a
+
+Heap {
+1 -> 20
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+v -> (1, int)
+}
+
+Exec stack:
+(new(a, v);(new(v, 3);new(a, v)))
+ref(ref(int)) a
+
+Heap {
+1 -> 20
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> (0, ref(int))
+v -> (1, int)
+}
+
+Exec stack:
+(new(a, v);(new(v, 3);new(a, v)))
+
+Heap {
+1 -> 20
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> (0, ref(int))
+v -> (1, int)
+}
+
+Exec stack:
+(new(a, v);(new(v, 3);new(a, v)))
+
+Heap {
+1 -> 20
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> (0, ref(int))
+v -> (1, int)
+}
+
+Exec stack:
+(new(v, 3);new(a, v))
+new(a, v)
+
+Heap {
+1 -> 20
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> (0, ref(int))
+v -> (1, int)
+}
+
+Exec stack:
+(new(v, 3);new(a, v))
+new(a, v)
+
+Heap {
+1 -> 20
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> (2, ref(int))
+v -> (1, int)
+}
+
+Exec stack:
+(new(v, 3);new(a, v))
+
+Heap {
+1 -> 20
+2 -> (1, int)
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> (2, ref(int))
+v -> (1, int)
+}
+
+Exec stack:
+(new(v, 3);new(a, v))
+
+Heap {
+1 -> 20
+2 -> (1, int)
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> (2, ref(int))
+v -> (1, int)
+}
+
+Exec stack:
+new(a, v)
+new(v, 3)
+
+Heap {
+1 -> 20
+2 -> (1, int)
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> (2, ref(int))
+v -> (1, int)
+}
+
+Exec stack:
+new(a, v)
+new(v, 3)
+
+Heap {
+1 -> 20
+2 -> (1, int)
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> (2, ref(int))
+v -> (3, int)
+}
+
+Exec stack:
+new(a, v)
+
+Heap {
+1 -> 20
+2 -> (1, int)
+3 -> 3
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> (2, ref(int))
+v -> (3, int)
+}
+
+Exec stack:
+new(a, v)
+
+Heap {
+1 -> 20
+2 -> (1, int)
+3 -> 3
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> (4, ref(int))
+v -> (3, int)
+}
+
+Exec stack:
+
+Heap {
+1 -> 20
+2 -> (1, int)
+3 -> 3
+4 -> (3, int)
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+
+---- Program States ----
+
+

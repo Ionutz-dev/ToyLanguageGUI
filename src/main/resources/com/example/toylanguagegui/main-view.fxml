@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="420.0" prefWidth="660.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.toylanguagegui.MainViewController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label text="Toy Language GUI" textAlignment="CENTER">
+        <font>
+            <Font name="System Bold" size="18.0" />
+        </font>
+    </Label>
+
+    <Label text="Program States" textAlignment="CENTER">
+        <font>
+            <Font size="16.0" />
+        </font>
+    </Label>
+    <ListView fx:id="prgStateList" prefHeight="268.0" prefWidth="626.0" />
+
+    <Button fx:id="runBtn" onMouseClicked="#onRunBtnClick" prefHeight="34.0" prefWidth="56.0" text="Run" />
+</VBox>

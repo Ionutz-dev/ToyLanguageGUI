@@ -1,0 +1,616 @@
+---- Program States ----
+
+Id 1 SymTable {
+}
+
+Exec stack:
+(int a;(a = 5;(int b;(b = aPLUS10;print(b)))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+}
+
+Exec stack:
+(a = 5;(int b;(b = aPLUS10;print(b))))
+int a
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+}
+
+Exec stack:
+(a = 5;(int b;(b = aPLUS10;print(b))))
+int a
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> 0
+}
+
+Exec stack:
+(a = 5;(int b;(b = aPLUS10;print(b))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> 0
+}
+
+Exec stack:
+(a = 5;(int b;(b = aPLUS10;print(b))))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> 0
+}
+
+Exec stack:
+(int b;(b = aPLUS10;print(b)))
+a = 5
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> 0
+}
+
+Exec stack:
+(int b;(b = aPLUS10;print(b)))
+a = 5
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> 5
+}
+
+Exec stack:
+(int b;(b = aPLUS10;print(b)))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> 5
+}
+
+Exec stack:
+(int b;(b = aPLUS10;print(b)))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> 5
+}
+
+Exec stack:
+(b = aPLUS10;print(b))
+int b
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> 5
+}
+
+Exec stack:
+(b = aPLUS10;print(b))
+int b
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> 5
+b -> 0
+}
+
+Exec stack:
+(b = aPLUS10;print(b))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> 5
+b -> 0
+}
+
+Exec stack:
+(b = aPLUS10;print(b))
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> 5
+b -> 0
+}
+
+Exec stack:
+print(b)
+b = aPLUS10
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> 5
+b -> 0
+}
+
+Exec stack:
+print(b)
+b = aPLUS10
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> 5
+b -> 15
+}
+
+Exec stack:
+print(b)
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> 5
+b -> 15
+}
+
+Exec stack:
+print(b)
+
+Heap {
+}
+
+Output List: [ ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> 5
+b -> 15
+}
+
+Exec stack:
+
+Heap {
+}
+
+Output List: [ 15 ]
+
+
+---- Program States ----
+
+Id 1 SymTable {
+}
+
+Exec stack:
+(int a;(a = 5;(int b;(b = aPLUS10;print(b)))))
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+}
+
+Exec stack:
+(a = 5;(int b;(b = aPLUS10;print(b))))
+int a
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+}
+
+Exec stack:
+(a = 5;(int b;(b = aPLUS10;print(b))))
+int a
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> 0
+}
+
+Exec stack:
+(a = 5;(int b;(b = aPLUS10;print(b))))
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> 0
+}
+
+Exec stack:
+(a = 5;(int b;(b = aPLUS10;print(b))))
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> 0
+}
+
+Exec stack:
+(int b;(b = aPLUS10;print(b)))
+a = 5
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> 0
+}
+
+Exec stack:
+(int b;(b = aPLUS10;print(b)))
+a = 5
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> 5
+}
+
+Exec stack:
+(int b;(b = aPLUS10;print(b)))
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> 5
+}
+
+Exec stack:
+(int b;(b = aPLUS10;print(b)))
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> 5
+}
+
+Exec stack:
+(b = aPLUS10;print(b))
+int b
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> 5
+}
+
+Exec stack:
+(b = aPLUS10;print(b))
+int b
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> 5
+b -> 0
+}
+
+Exec stack:
+(b = aPLUS10;print(b))
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> 5
+b -> 0
+}
+
+Exec stack:
+(b = aPLUS10;print(b))
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> 5
+b -> 0
+}
+
+Exec stack:
+print(b)
+b = aPLUS10
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> 5
+b -> 0
+}
+
+Exec stack:
+print(b)
+b = aPLUS10
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> 5
+b -> 15
+}
+
+Exec stack:
+print(b)
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> 5
+b -> 15
+}
+
+Exec stack:
+print(b)
+
+Heap {
+}
+
+Output List: [ ]
+
+BarrierTable {
+}
+
+
+---- Program States ----
+
+Id 1 SymTable {
+a -> 5
+b -> 15
+}
+
+Exec stack:
+
+Heap {
+}
+
+Output List: [ 15 ]
+
+BarrierTable {
+}
+
+
