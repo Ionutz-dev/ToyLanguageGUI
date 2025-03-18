@@ -160,18 +160,15 @@ public class ExecuteViewController {
         try {
             List<PrgState> prgStates = new ArrayList<>(controller.getRepository().getPrgList());
 
-            // Separate completed states (those with empty execution stacks)
             List<PrgState> nonCompletedStates = prgStates.stream()
                     .filter(prgState -> !prgState.getExeStack().isEmpty())
                     .collect(Collectors.toList());
 
-            // If all program states are completed, show an error and stop execution
             if (nonCompletedStates.isEmpty()) {
                 showError("All program states have completed execution");
                 return;
             }
 
-            // Execute one step for all non-completed program states
             controller.oneStepForAllPrg(nonCompletedStates);
 
             updateView();
