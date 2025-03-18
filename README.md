@@ -1,4 +1,4 @@
-# ToyLanguageGUI
+# Toy Language GUI
 
 ## Overview
 
@@ -45,7 +45,7 @@ ToyLanguageGUI/
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/Toy-Language-GUI.git
+   git clone https://github.com/yourusername/ToyLanguageGUI.git
    cd ToyLanguageGUI
    ```
 
