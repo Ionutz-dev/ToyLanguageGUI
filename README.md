@@ -45,7 +45,7 @@ ToyLanguageGUI/
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/ToyLanguageGUI.git
+   git clone https://github.com/Ionutz-dev/ToyLanguageGUI.git
    cd ToyLanguageGUI
    ```
 
